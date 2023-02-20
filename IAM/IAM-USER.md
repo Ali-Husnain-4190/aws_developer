@@ -26,7 +26,7 @@
     3 
 # IAM Group
     IAM group is a container of IAM users. You can not login into group
-![alt](./asset/group.png)
+![alt](https://github.com/Ali-Husnain-4190/aws_developer/blob/main/IAM/asset/lambda-role.png)
 
 # Role
     Role is a identity. like multiple user inside or out side AWS account use as identity. 
