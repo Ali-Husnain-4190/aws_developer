@@ -17,7 +17,7 @@
     arn:aws:s3:::mybucket          In this mean you get bucket permession
 
     arn:aws:s3:::mybucket          In this mean you get object in bucket 
-    ```
+```
 
 
 # Intresting fact
