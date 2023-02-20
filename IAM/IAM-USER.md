@@ -30,7 +30,7 @@
 
 # IAM Group
     IAM group is a container of IAM users. You can not login into group
-    ![alt](./asset/group.png)
+![alt](./asset/group.png)
 
 # Role
     Role is a identity. like multiple user inside or out side AWS account use as identity. 
@@ -53,7 +53,7 @@ Difference between IAM user and IAM role
 #   When to use IAM role
 
     AWS Lambda 
-    ![alt](asset/lambda-role.png)
+![alt](asset/lambda-role.png)
 
     Explanation:
         when we create lambda we have to create a execuation role. which has 1 trust policy mean we trust this lamnda and permession policy mean what permession we are allowing to this lambda.
