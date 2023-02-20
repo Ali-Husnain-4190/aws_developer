@@ -8,9 +8,7 @@
     Human or application need to authenticate before using AWS console. It can authenticate using password or Access key
 # Authorize
     In autorizing IAM checking  the statement the apply to identiy it allow or deny.
-
 ![alt](./asset/iam.png)
-
 
 # Amazon Resource name
     Uniqure resource within AWS account.
@@ -26,8 +24,6 @@
     1 you can have 5000 IAM user
     2 I am user can be member of 10 group
     3 
-
-
 # IAM Group
     IAM group is a container of IAM users. You can not login into group
 ![alt](./asset/group.png)
