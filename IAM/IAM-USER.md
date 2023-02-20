@@ -14,7 +14,7 @@
 
 # Amazon Resource name
     Uniqure resource within AWS account.
-    ![alt](./asset/arn.png)
+![alt](./asset/arn.png)
 ```
     arn:aws:s3:::mybucket          In this mean you get bucket permession
 
