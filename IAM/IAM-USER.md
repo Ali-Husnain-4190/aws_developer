@@ -47,9 +47,9 @@ Difference between IAM user and IAM role
 
 
 #   When to use IAM role
-
     AWS Lambda 
-![alt](asset/lambda-role.png)
+![alt](./asset/lambda-role.png)
+
 
     Explanation:
         when we create lambda we have to create a execuation role. which has 1 trust policy mean we trust this lamnda and permession policy mean what permession we are allowing to this lambda.
