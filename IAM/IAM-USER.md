@@ -34,9 +34,9 @@
 
 # Role
     Role is a identity. like multiple user inside or out side AWS account use as identity. 
-    ``` 
+``` 
         IAM role are assumed ... that you become that role for short period of time
-        ````
+````
 ![alt](./asset/role.png)
 
 
@@ -58,3 +58,8 @@ Difference between IAM user and IAM role
     Explanation:
         when we create lambda we have to create a execuation role. which has 1 trust policy mean we trust this lamnda and permession policy mean what permession we are allowing to this lambda.
         lambda create a token using STS assume role for certain period of time
+
+![alt](./asset/lambda-role-2.png)
+![alt](./asset/lambda-role-3.png)
+
+![alt](./asset/lambda-role-4.png)
