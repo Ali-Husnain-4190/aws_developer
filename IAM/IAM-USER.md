@@ -8,9 +8,7 @@
     Human or application need to authenticate before using AWS console. It can authenticate using password or Access key
 # Authorize
     In autorizing IAM checking  the statement the apply to identiy it allow or deny.
-
 ![alt](./asset/iam.png)
-
 
 # Amazon Resource name
     Uniqure resource within AWS account.
@@ -19,18 +17,16 @@
     arn:aws:s3:::mybucket          In this mean you get bucket permession
 
     arn:aws:s3:::mybucket          In this mean you get object in bucket 
-    ```
+```
 
 
 # Intresting fact
     1 you can have 5000 IAM user
     2 I am user can be member of 10 group
     3 
-
-
 # IAM Group
     IAM group is a container of IAM users. You can not login into group
-![alt](./asset/group.png)
+![alt](https://github.com/Ali-Husnain-4190/aws_developer/blob/main/IAM/asset/lambda-role.png)
 
 # Role
     Role is a identity. like multiple user inside or out side AWS account use as identity. 
@@ -51,9 +47,9 @@ Difference between IAM user and IAM role
 
 
 #   When to use IAM role
-
     AWS Lambda 
-![alt](asset/lambda-role.png)
+![alt](./asset/lambda-role.png)
+
 
     Explanation:
         when we create lambda we have to create a execuation role. which has 1 trust policy mean we trust this lamnda and permession policy mean what permession we are allowing to this lambda.
