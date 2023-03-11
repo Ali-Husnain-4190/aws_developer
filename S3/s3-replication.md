@@ -44,3 +44,12 @@
             CRR: Glonal resiliance replication ( have backup of your data in differnt region)
             CRR: latency reduction
 ![alt](./asset/why-use-replication.png)
+
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-what-is-isnot-replicated.html
+
+Lesson Links
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html
+
+https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-s3-replication-time-control-for-predictable-replication-time-backed-by-sla/
