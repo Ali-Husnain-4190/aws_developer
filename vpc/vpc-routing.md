@@ -24,3 +24,11 @@ The destination field determin what destination route match.  Now destination fi
 ![alt](./asset/IGW.png)
 
 ![alt](./asset/using-igw.png)
+
+    Using internet gateway:
+        1) Create IGW
+        2) attach IGW to VPC
+        3) Create custom RT
+        4) Associate RT
+        5) DEfault RT
+        6) subnet allocate IPV4 
