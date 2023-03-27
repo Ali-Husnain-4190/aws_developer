@@ -62,4 +62,5 @@ Example#2:
         A statefull firewal is intelegent is enough to identify request and response component of connection as being related.
         
         Bob laptop on left and categram server and have upate software server. Since port and IPS same it can link one to the other. As this mean specific request to categram server from bob laptop the firewall automatically known which data is the response. And same is true for software update server. For given connection to software upate server. The firewall smart enough to see the response. so return data is yellow line from software update server  back to categram server . As this mean that stateful firewall, you will only have to allow the request or not and the response will be allowed     or not automatically.  This significantly reduce the admin overhead and chance for mistake. In addition you do not need to allow full emphemeral port. because firewall can identify which port is being used. and implicitly allow base on it being reponse.
-        
+
+![alt](./asset/stateful.png)
