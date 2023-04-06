@@ -13,3 +13,9 @@ EBS volume Type:
     For EBS type read onenote apps notes
     
 
+
+# EBS Encryption
+    Account can be set to encryption by default
+    Otherwise choose KMS key to use
+    Each volume has 1 DEK
+    
