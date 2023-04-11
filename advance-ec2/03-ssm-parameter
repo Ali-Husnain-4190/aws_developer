@@ -1,0 +1,31 @@
+# SSM parameter:
+    - Storage for configration and secrets
+    - String , ListString and secureString
+    - License Code, Full config and password
+    - plaintext and ciphertext
+The SSM Parameter store is a service which is part of Systems Manager which allows the storage and retrieval of parameters - string, stringlist or secure string.
+
+The service supports encryption which integrates with KMS, versioning and can be secured using IAM.
+
+The service integrates natively with many AWS services - and can be accessed using the CLI/APIs from anywhere with access to the AWS Public Space Endpoints.
+
+It is a public service anything use it have to access publically. 
+
+
+
+
+
+# CREATE PARAMETERS
+
+/my-cat-app/dbstring        db.allthecats.com:3306
+/my-cat-app/dbuser          bosscat
+/my-cat-app/dbpassword      amazingsecretpassword1337 (encrypted)
+/my-dog-app/dbstring        db.ifwereallymusthavedogs.com:3306
+/rate-my-lizard/dbstring    db.thisisprettyrandom.com:3306
+
+# GET PARAMETERS (if using cloudshell)
+aws ssm get-parameters --names /rate-my-lizard/dbstring 
+aws ssm get-parameters --names /my-dog-app/dbstring 
+aws ssm get-parameters --names /my-cat-app/dbstring 
+aws ssm get-parameters-by-path --path /my-cat-app/ 
+aws ssm get-parameters-by-path --path /my-cat-app/ --with-decryption
