@@ -1,0 +1,20 @@
+# Using parameter
+
+Parameters:
+  InstanceType:
+    Type: String
+    Default: "t2.micro"
+    AllowedValues:
+      - "t2.micro"
+      - "t3.micro"
+  ImageId:
+    Type: String
+
+Resources:
+  s3Bucket:
+    Type: AWS::S3::Bucket
+  Ec2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: !Ref ImageId
+      InstanceType: !Ref InstanceType
