@@ -1,0 +1,12 @@
+# Createing Ec2 instance and bucket
+
+Resources:
+  s3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "ali321-321"
+  Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: "ami-06e46074ae430fba6"
+      InstanceType: "t2.micro"
